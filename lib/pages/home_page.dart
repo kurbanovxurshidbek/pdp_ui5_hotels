@@ -82,8 +82,8 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                   ),
-
                   SizedBox(height: 20,),
+
                   Text("Luxury Hotels", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.grey[800], fontSize: 20),),
                   SizedBox(height: 20,),
                   Container(
@@ -111,7 +111,7 @@ class _HomePageState extends State<HomePage> {
 
   Widget makeItem({image, title}) {
     return AspectRatio(
-      aspectRatio: 1.5 / 1,
+      aspectRatio: 1.4 / 1,
       child: Container(
         margin: EdgeInsets.only(right: 15),
         decoration: BoxDecoration(
